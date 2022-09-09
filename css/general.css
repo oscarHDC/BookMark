@@ -17,11 +17,16 @@ html {
 
 body {
   font-family: "Rubik", sans-serif;
-  margin-bottom: 10rem;
 }
 
 .container {
   max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 4rem;
+}
+
+.container-small {
+  max-width: 50rem;
   margin: 0 auto;
   padding: 0 4rem;
 }
@@ -42,7 +47,11 @@ body {
 }
 
 .center-content {
-  margin: 0 auto;
+  text-align: center;
+}
+
+.margin-bottom-medium {
+  margin-bottom: 5rem;
 }
 
 p {
@@ -133,10 +142,4 @@ h4 {
   visibility: visible;
   opacity: 1;
   pointer-events: all;
-}
-
-.feature .feature-content {
-}
-
-.feature-display .feature-content {
 }

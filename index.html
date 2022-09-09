@@ -71,26 +71,61 @@
 
       <div class="feature-section-list">
         <div class="feature-nav">
-          <a href="#">Simple Bookmarking</a>
-          <a href="#">Speedy Searching</a>
-          <a href="#">Easy Sharing</a>
+          <a href="#" class="feature-nav-link">Simple Bookmarking</a>
+          <a href="#" class="feature-nav-link">Speedy Searching</a>
+          <a href="#" class="feature-nav-link">Easy Sharing</a>
         </div>
       </div>
-
-      <div class="feature-content container grid grid--2-cols">
-        <div class="feature-content-img">
-          <img src="images/illustration-features-tab-1.svg" alt="" />
+      <div class="feature-container container">
+        <div class="feature  feature-display">
+          <div class="feature-content container grid grid--2-cols feature-first">
+          <div class="feature-content-img">
+            <img src="images/illustration-features-tab-1.svg" alt="" />
+          </div>
+          <div class="feature-content-text">
+            <h3>Bookmark in one click</h3>
+            <p>
+              Organize your bookmarks however you like. Our simple drag-and-drop
+              interface gives you complete control over how you manage your
+              favourite sites.
+            </p>
+            <a href="#" class="info-button">More info</a>
+          </div>
         </div>
-        <div class="feature-content-text">
-          <h3>Bookmark in one click</h3>
-          <p>
-            Organize your bookmarks however you like. Our simple drag-and-drop
-            interface gives you complete control over how you manage your
-            favourite sites.
-          </p>
-          <a href="#" class="info-button">More info</a>
+        </div>
+        
+        <div class="feature ">
+          <div class="feature-content container grid grid--2-cols feature-second ">
+          <div class="feature-content-img">
+            <img src="images/illustration-features-tab-2.svg" alt="" />
+          </div>
+          <div class="feature-content-text">
+            <h3>Intelligent search</h3>
+            <p>
+              Our powerfull search feature help you find saved sites in no time at all. No need to trawl through all of your bookmarks
+            </p>
+            <a href="#" class="info-button">More info</a>
+          </div>
+        </div>
+        </div>
+        
+        <div class="feature ">
+          <div class="feature-content container grid grid--2-cols feature-third">
+          <div class="feature-content-img">
+            <img src="images/illustration-features-tab-3.svg" alt="" />
+          </div>
+          <div class="feature-content-text">
+            <h3>Share your bookmarks</h3>
+            <p>
+              Easily share your bookmarks and collection with others.
+              Create a shareable link that you can send the click of a button
+            </p>
+            <a href="#" class="info-button">More info</a>
+          </div>
+        </div>
         </div>
       </div>
+      
     </section>
 
     <!-- /////////////// DOWNLOAD SECTION ///////////////  -->
@@ -103,7 +138,7 @@
         </p>
       </div>
 
-      <div class="extensions container grid grid--3-cols">
+      <div class="extensions container grid grid--3-cols center-items">
         <div class="extension">
           <img src="images/logo-chrome.svg" alt="" />
           <h4>Add to Chrome</h4>
@@ -129,32 +164,94 @@
 
     <!-- /////////////// HERO SECTION ///////////////  -->
 
-    <section class="faq-section">
-      <h2>Frecuently Asked Questions</h2>
-      <p>
-        Here are some of our FAQs. If you have any other questions you’d like
-        answered please feel free to email us.
-      </p>
+    <section class="faq-section container">
+      <div class="container section-text">
+        <h2>Frecuently Asked Questions</h2>
+        <p>
+          Here are some of our FAQs. If you have any other questions you’d like
+          answered please feel free to email us.
+        </p>
+      </div>
 
-      <div class="faq-questions">
-        <div class="question">
-          <p>What is Bookmark</p>
-          <ion-icon name="chevron-down-outline"></ion-icon>
+      
+        <div class="faq-questions">
+          <!-- Q1 -->
+          <div class="question">
+            <div class="question-title">
+              <p>What is Bookmark</p>
+              <ion-icon
+                class="question-icon"
+                name="chevron-down-outline"
+              ></ion-icon>
+            </div>
+            
+            <div class="question-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+              tincidunt justo eget ultricies fringilla. Phasellus blandit ipsum
+              quis quam ornare mattis.
+            </div>
+          </div>
+          <!-- Q2 -->
+          <div class="question">
+            <div class="question-title">
+               <p>How can I request new browser</p>
+            <ion-icon
+              class="question-icon"
+              name="chevron-down-outline"
+            ></ion-icon>
+            </div>
+           
+            <div class="question-text">
+              Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa,
+              ultricies non ligula. Suspendisse imperdiet. Vivamus luctus eros aliquet
+              convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse
+              imperdie tVivamus luctus eros aliquet convallis ultricies. Mauris augue
+              massa, ultricies non ligula. Suspendisse imperdiet.
+            </div>
+          </div>
+          <!-- Q3 -->
+          <div class="question">
+            <div class="question-title">
+              <p>Is there a mobile app?</p>
+              <ion-icon
+              class="question-icon"
+              name="chevron-down-outline"
+            ></ion-icon>
+          </div>
+          
+          <div class="question-text">
+            Sed consectetur quam id neque fermentum accumsan. Praesent luctus vestibulum
+            dolor, ut condimentum urna vulputate eget. Cras in ligula quis est pharetra
+            mattis sit amet pharetra purus. Sed sollicitudin ex et ultricies bibendum.
+          </div>
         </div>
+        <!-- Q4 -->
         <div class="question">
-          <p>How can I request new browser</p>
-          <ion-icon name="chevron-down-outline"></ion-icon>
+            <div class="question-title">
+               <p>What about other Chromium browser</p>
+            <ion-icon
+              class="question-icon"
+              name="chevron-down-outline"
+            ></ion-icon>
+            </div>
+            <div class="question-text">
+              Integer condimentum ipsum id imperdiet finibus. Vivamus in placerat mi, at
+    euismod dui. Aliquam vitae neque eget nisl gravida pellentesque non ut
+    velit. More Info 35,000+ already joined Stay up-to-date with what we’re
+    doing Contact Us Features Pricing Contact
+            </div>
+          </div>
         </div>
-        <div class="question">
-          <p>Is there a mobile app?</p>
-          <ion-icon name="chevron-down-outline"></ion-icon>
+        <div class="faq-button">
+
+          <a href="#" class="info-button ">More info</a>
         </div>
-        <div class="question">
-          <p>What about other Chromium browser</p>
-          <ion-icon name="chevron-dpwn-outline"></ion-icon>
+  
+          </div>
         </div>
       </div>
-      <a href="#" class="info-button">More info</a>
     </section>
+    <script src="script/faq.js"></script>
+    <script src="script/features.js"></script>
   </body>
 </html>

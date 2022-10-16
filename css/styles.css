@@ -358,6 +358,28 @@ header {
   gap: 5rem;
 }
 
+.footer-nav-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4.5rem;
+}
+
+.footer-nav-list li {
+  list-style: none;
+  color: #fff;
+  font-weight: 400;
+}
+
+.footer-nav-link {
+  font-size: 1.3rem;
+  transition: all ease-out 0.3s;
+}
+
+.footer-nav-link:hover {
+  color: var(--softRed);
+}
+
 .footer-links img {
   filter: brightness(0) invert(1);
 }

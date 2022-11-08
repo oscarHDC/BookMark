@@ -1,6 +1,5 @@
  FRONTEND MENTOR CHALLENGE.
- Tehcnologies used:
- 
+ Technologies used:
   - HTML5 & CSS3
   - JS
   - BEM
